@@ -1,0 +1,119 @@
+.card-1 { 
+    /* First palette card 1*/
+    --bg: #000000;
+    --sec-bg: #121212;
+    --main-heading: #1DCD9F;
+    --border-col: #169976;
+    --sub-heading: #169976;
+    --para-text: #f2f2f2;
+    --hover-effect: #169976;
+    --button-bg: #1DCD9F;
+    --button-text: #000000;
+    --button-hv-bg: #169976;
+    --icon-color: #1DCD9F;
+}
+
+.card-2 {
+    --bg: #000000;
+    --sec-bg: #121212;
+    --main-heading:#DC5F00;
+    --border-col:#CF0A0A;
+    --sub-heading:#A64500;
+    --para-text: #EEEEEE;
+}
+
+.card-3 {
+    --bg: #000000;
+    --sec-bg: #121212;
+    --main-heading: #0F52BA;
+    --border-col: #0D4C92;
+    --sub-heading: #0D4C92;
+    --para-text: #f2f2f2;
+
+}
+
+.section-html {
+    margin: 11px 10%;
+}
+
+.heading-html{
+    text-align: center;
+    color: var(--main-heading);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+/* Use this class only on elements where you want gradient text */
+.gradient-text {
+    background: linear-gradient(to right, #1DCD9F, #DC5F00, #0F52BA,#000000);
+    background-clip: text;               /* Standard */
+    -webkit-background-clip: text;       /* WebKit */
+    -webkit-text-fill-color: transparent;
+    color: #1DCD9F;                      /* Fallback */
+}
+
+.full-tag {
+    border-left: 5px solid var(--border-col);
+    border-bottom: 5px solid var(--border-col);
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: var(--sec-bg);
+    color: var(--text-color);
+}
+
+.full-tag-info{
+    width: 140%;
+}
+/* For First Box Color */
+.main-heading {
+    color: var(--main-heading);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.sub-heading{
+    color: var(--sub-heading);  
+    margin: 2% 0 10px 0; 
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.full-tag-text {
+    color: var(--para-text);
+    margin: 0; 
+    font-size: 15px;
+}
+
+.full-tag-text li {
+    margin-bottom: 2px;
+}
+
+.attribute code {
+    background-color: var(--bg);
+    padding: 6px 10px;
+    border-radius: 5px;
+    /* color: var(--main-heading); */
+    display: inline-block;
+    white-space: pre-wrap;
+}
+
+
+.example-div pre {
+    background-color: var(--bg);
+    padding: 6px 10px;
+    border-radius: 5px;
+    color: var(--main-heading);
+    display: inline-block;
+    white-space: pre-wrap;
+    margin: 0;
+}
+
+.script-tag {
+    display: flex;
+    /* width: 8 */
+}
+
+.full-tag-image img {
+    margin-bottom: 10px;
+}
