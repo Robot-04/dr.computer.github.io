@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML info | DR.COMPUTER</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="simple.js"></script>
+    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/htmlpage.css" rel="stylesheet">
+</head>
+<body>
+    <section class="section-html">
+        <p class="heading-html gradient-text">Basic HTML Tags and Their Attributes</p>
+        <div class="full-tag card-1">
+            <h2 class="main-heading">&lt;html&gt; - HTML Tag</h2>
+            <h3 class="sub-heading">Description:</h3>
+            <ul class="full-tag-text">
+                <li>The &lt;html&gt; tag represents the root of an HTML document.</li>
+                <li>In HTML tag we write all content but in this we have two section. which was define below.</li>
+                <ul>
+                    <li>&lt;head&gt;</li>
+                    <li>&lt;body&gt;</li>
+                </ul>
+            </ul>
+            <h3 class="sub-heading">Attributes:</h3>
+            <ul class="full-tag-text attribute">
+                <li><code>lang</code> - Specifies the language of the content.</li>
+            </ul>
+            <div class="example-div">
+                <h3 class="sub-heading">Example:</h3>
+                <pre>&lt;html lang=&quot;en&quot;&gt;...&lt;/html&gt;</pre>
+            </div>
+        </div>
+
+        <div class="full-tag card-2">
+            <h2 class="main-heading">&lt;head&gt; - head Tag</h2>
+            <h3 class="sub-heading">Description:</h3>
+            <ul class="full-tag-text">
+                <li>The HTML head is the contents of the &lt;head&gt; element. </li>
+                <li> Unlike the contents of the &lt;body&gt; element (which are displayed on the page when loaded in a browser), the head's content is not displayed on the page.</li>
+                <li>Instead, the head's job is to contain metadata about the document.</li>
+            </ul>
+            <h3 class="sub-heading">Attributes(there was no comman attribute):</h3>
+            <div class="example-div">
+                <h3 class="sub-heading">Example:</h3>
+                <pre>&lt;head&gt;...&lt;/head&gt;</pre>
+            </div>
+            <h3 class="sub-heading">Can Contain:</h3>
+            <ul class="full-tag-text"> 
+                <li>&lt;title&gt;</li>
+                <li>&lt;base&gt;</li>
+                <li>&lt;link&gt;</li>
+                <li>&lt;meta&gt;</li>
+                <li>&lt;style&gt;</li>
+                <li>&lt;script&gt;</li>
+                <li>&lt;noscript&gt;</li>
+                <li>&lt;taemplate&gt;</li>
+            </ul>
+        </div>
+
+        <div class="full-tag card-3">
+            <h2 class="main-heading">&lt;meta&gt; - meta Tag</h2>
+            <h3 class="sub-heading">Description:</h3>
+            <ul class="full-tag-text">
+                <li>The &lt;head&gt; tag provides metadata (data about data)  about the HTML document.</li>
+                <li>It's placed inside the &lt;head&gt; tag and is not displayed on the webpage itself.</li>
+            </ul>
+            <h3 class="sub-heading">Attributes:</h3>
+            <ul class="full-tag-text attribute">
+                <li><code>name</code> - Specifies the type of meta element it is; what type of information it contain.</li>
+                <li><code>decription</code> - Specifies the actual meta contain.</li>
+                <li><code>chatset</code> - Define the character encoding</li>
+                <li><code>http-equiv</code> - Provides an HTTP header</li>
+            </ul>
+            <div class="example-div">
+                <h3 class="sub-heading">Comman Used of &lt;meta&gt;</h3>
+                <ol>
+                    <li class="full-tag-text">Character Encoding</li>
+                    <pre>&lt;meta charset=&quot;UTF-8&quot;&gt;</pre>
+
+                    <li class="full-tag-text">Page Description (SEO)</li>
+                    <pre>&lt;meta name=&quot;description&quot; content=&quot;Best tutorial for learning HTML.&quot;&gt;</pre>
+                    
+                    <li class="full-tag-text">Keyword for SEO</li>
+                    <pre>&lt;meta name=&quot;keywords&quot; content=&quot;HTML, CSS, Web Development&quot;&gt;</pre>
+                    
+                    <li class="full-tag-text">Author Info</li>
+                    <pre>&lt;meta name=&quot;author&quot; content=&quot;dr.Computer&quot;&gt;</pre>
+
+                    <li class="full-tag-text">Viewport Settings</li>
+                    <pre>&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</pre>
+
+                    <li class="full-tag-text">Referesh/Redirect</li>
+                    <pre>&lt;meta http-equiv=&quot;referance&quot; content=&quot;dr.Computer&quot;&gt;</pre>
+                </ol>
+            </div>
+        </div>
+
+        <div class="full-tag card-1">
+            <h2 class="main-heading">title tag vs. title attribute</h2>
+            <h3 class="sub-heading">&lt;title&gt; Tag</h3>
+            <ul class="full-tag-text">
+                <li>What is in: An HTML element (tag) placed inside the &lt;title&gt;.</li>
+                <li>Purpose: Defines the title of the web page - it appers:</li>
+                <ul>
+                    <li>On the brower tab.</li>
+                    <li>When bookmarking the page</li>
+                </ul>
+            </ul>
+            <div class="example-div">
+                <h3 class="sub-heading">Example:</h3>
+                <pre>&lt;title&gt;My Web Page&lt;/title&gt;</pre>
+            </div>
+
+            <h3 class="sub-heading">title Attributes</h3>
+            <ul class="full-tag-text">
+                <li>What is in: An HTML attributesn on my elements (&lt;a&gt;, &lt;img&gt;, &lt;div&gt;, etc.).</li>
+                <li>Purpose: Provides a tooltip when the user hovoers over the element</li>
+            </ul>
+            <div class="example-div">
+                <h3 class="sub-heading">Example:</h3>
+                <pre>&lt;a href=&quot;#&quot;&gt;Home Page&lt;/a&gt;</pre>
+            </div>
+        </div>
+
+        <div class="full-tag card-2">
+            <h2 class="main-heading">&lt;link&gt; - link Tag</h2>
+            <h3 class="sub-heading">Definition:</h3>
+            <ul class="full-tag-text">
+                <li>The &lt;link&gt; tag define a relationship between the current document and an external resource.</li>
+                <li>It's most commonly used to link external stylesheets.</li>
+                <li>It is always placed inside the &lt;head&gt; tag.</li>
+            </ul>
+            <h3 class="sub-heading">Attributes:</h3>
+            <ul class="full-tag-text attribute">
+                <li><code>rel</code> - Specifies the relationship between the current document and the linked resouces. like stylesheet, manifest, icon</li>
+                <li><code>href</code> - URL of the linked resouces. like .css, .icon</li>
+                <li><code>type</code> - MIME type of the linked document &#40;optional&#41;</li>
+                <li><code>media</code> - Specifies the media/device for which the styles are optimized</li>
+            </ul>
+            <div class="example-div">
+                <h3 class="sub-heading">Example:</h3>
+                <pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;</pre>
+            </div>
+        </div>
+
+        <div class="full-tag card-3 script-tag">
+            <div class="full-tag-info">
+                <h2 class="main-heading">&lt;script&gt; - script Tag</h2>
+                <h3 class="sub-heading">Definition:</h3>
+                <ul class="full-tag-text">
+                    <li>The &lt;script&gt; tag is used to embed or reference executable JavaScript code.</li>
+                    <li>It can be placed in the &lt;head&gt; or near the end of the &lt;body&gt;.</li>
+                </ul>
+                <h3 class="sub-heading">Attributes:</h3>
+                <ul class="full-tag-text attribute">
+                    <li><code>src</code> - Specifies the relationship between the current document and the linked resouces. like stylesheet, manifest, icon</li>
+                    <li><code>type</code> - URL of the linked resouces. like .css, .icon</li>
+                    <li><code>defer</code> - Defers execution until the HTML is fully parsed.</li>
+                    <li><code>async</code> - Executes the script asynchronously (does not block HTML parsing).</li>
+                </ul>
+                <div class="example-div">
+                    <h3 class="sub-heading">Example:</h3>
+                    <pre>&lt;link rel=&quot;stylesheet&quot; href=&quot;style.css&quot;&gt;</pre>
+                </div>
+            </div>
+            <div class="full-tag-image">
+                <img src="./images/1.png" width="500px">
+                <img src="./images/2.png" width="500px">
+                <img src="./images/3.png" width="500px">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
